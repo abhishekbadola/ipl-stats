@@ -5,6 +5,7 @@
 Wait for data to load as it reads from CSV file and processes in chunks.
 Once the data has been loaded and mapped to the views , it can be accessed again with the help of localStorage.
 
+**Below are some useful points related to the project**
 1. VueJS is used to build the component based system.
 2. Vue-router is used for routing
 3. Vue-material is used to give it a material design feel
