@@ -7,15 +7,12 @@
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
-    "build": "node build/build.js",
-    "deploy": "node ./node_modules/vue-gh-pages/index.js",
-    "homepage": "https://github.com/abhishekbadola/ipl-stats"
+    "build": "node build/build.js"
   },
   "dependencies": {
     "highcharts": "^6.0.4",
     "papaparse": "^4.3.6",
     "vue": "^2.5.2",
-    "vue-gh-pages": "^1.7.0",
     "vue-material": "^1.0.0-beta-7",
     "vue-router": "^3.0.1"
   },
