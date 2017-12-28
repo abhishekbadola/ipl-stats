@@ -8,7 +8,8 @@ Once the data has been loaded and mapped to the views , it can be accessed again
 **Below are some useful points related to the project**
 1. VueJS is used to build the component based system.
 2. Vue-router is used for routing
-3. Vue-material is used to give it a material design feel
+3. Vue-material is used to give it a material design feel.
+4. Highcharts library is used for the representation of data in form of charts.
 4. App is responsive and can be used in any mobile devices.
 5. Load time is reduced, through the introduction of Webpack and inbuilt bundler and minifier.
 6. Papa parser is used to convert the CSV data to JSON and read it in chunks.
