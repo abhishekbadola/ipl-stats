@@ -17,11 +17,20 @@ export default {
     });
   },
   mounted() {
-    this.fillChartsData();
+    let $this = this,
+      interval = setInterval(function() { // To track once all data has loaded
+        $this.boundariesPerSeason = JSON.parse(
+          window.localStorage.getItem("boundariesPerSeason")
+        );
+        if ($this.boundariesPerSeason) {
+          $this.fillChartsData();
+          clearInterval(interval);
+        }
+      }, 500);
   },
   data() {
     return {
-      boundariesPerSeason: {},
+      boundariesPerSeason: null,
       options: {}
     };
   },
@@ -46,7 +55,7 @@ export default {
           text: "Boundaries per season"
         },
         tooltip: {
-            shared: true
+          shared: true
         },
         credits: {
           enabled: false
