@@ -16,4 +16,4 @@ Once the data has been loaded and mapped to the views , it can be accessed again
 7. Offline usability is not introduced but utilized the localStorage of browser to reduce calling data reading and processing from csv file.
 
 ___
-> [Here is the link to preview](https://abhishekbadola-ipl.netlify.com)
+> [Here is the link to preview](https://abhishekbadola-ipl.netlify.app)
